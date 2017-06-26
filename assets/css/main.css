@@ -1411,6 +1411,16 @@
 			padding-left: 0.5em;
 		}
 
+	.link-main {
+		color: #43bff0 !important;
+		text-decoration: none;
+	}
+
+	.link-main:hover {
+		color: #888 !important;
+
+	}
+
 	ul.social {
 		cursor: default;
 		margin: 0;
@@ -1436,6 +1446,14 @@
 				position: relative;
 			}
 
+				.alternative a:before {
+					color: #333 !important;
+				}
+
+				.main a:before {
+					color: white !important;
+				}
+
 				ul.social li a:before {
 					background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -1445,10 +1463,9 @@
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					/*background-color: #444;*/
 					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					box-shadow: inset 0px 0px 0px 1px #eee, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					display: block;
 					font-size: 26px;
 					height: 48px;
